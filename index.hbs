@@ -4,11 +4,15 @@ id: "root"
 <html>
 
 <head>
-    <script src="src/index.js" type="module"></script>
+    <link rel="stylesheet" href="src/css/normalize.css">
+    <link rel="stylesheet" href="src/css/index.css">
+    {{!-- <script src="src/index.js" type="module"></script> --}}
 </head>
 
 <body>
-    <div id="{{ id }}"></div>
+    <div id="{{ id }}">
+        <button class="confirm">Confirm</button>
+    </div>
 </body>
 
 </html>
